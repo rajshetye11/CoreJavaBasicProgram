@@ -48,7 +48,7 @@ public class DeckOfCards {
 	public static void main(String[] args) {
 		String [] cards = new String[52];
 		String [] suits = {"Hearts","Spades","Diamonds","Clubs"};
-		String [] rank = {"2","3","4","5","6","7","8","9","Jack","Queen","King","Ace"};
+		String [] rank = {"2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace"};
 		int n =rank.length * suits.length;
 		
 		DeckOfCards d1 = new DeckOfCards();
